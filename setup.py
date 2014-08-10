@@ -13,9 +13,9 @@ requires = [
     'SQLAlchemy',    
     ]
 
-setup(name='mabo',
+setup(name='mabopy',
       version='0.0.1',
-      description='mabo',
+      description='mabo python lib',
       long_description=README + '\n\n' +  CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -27,11 +27,12 @@ setup(name='mabo',
       license='MIT',
       author_email='mabotech@163.com',
       url='http://www.mabotech.com',
-      keywords='mabotech mabo lib',
+      keywords='mabotech mabo python lib',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      test_suite='maboss',
-      install_requires = requires
+      test_suite='mabopy/test',
+      install_requires = requires,
+      #data_files=[('mabo/test')]
   )
 
