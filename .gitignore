@@ -2,6 +2,11 @@
 __pycache__/
 *.py[cod]
 
+*.docx
+*.xlsx
+*.csv
+*.png
+
 # C extensions
 *.so
 
